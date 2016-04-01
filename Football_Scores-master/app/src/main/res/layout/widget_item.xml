@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/headerBarLinearLayouts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/headerBarLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/image_view_team"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/tv_first_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/image_view_team"
+            android:paddingLeft="7dp"
+
+            android:textColor="@android:color/white"
+            android:textSize="9dp"
+            android:textStyle="bold|italic" />
+
+
+        <ImageView
+            android:id="@+id/image_view_second_team"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:padding="3dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_second_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/image_view_second_team"
+            android:paddingRight="7dp"
+            android:paddingEnd="7dp"
+            android:textColor="@android:color/white"
+
+            android:textSize="9dp"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+    <!--        <TextView
+                       android:id="@+id/tv_second_team_goal"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@android:color/white"
+                       android:layout_weight="1"
+                       android:textSize="11dp"
+                       android:paddingRight="5dp"
+                       android:paddingLeft="5dp"
+
+                       />--><!-- <TextView
+         android:id="@+id/tv_first_team_goal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@android:color/white"
+         android:layout_weight="1"
+         android:textSize="11dp"
+         android:paddingRight="5dp"
+         android:paddingLeft="5dp"/>-->
+

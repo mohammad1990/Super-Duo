@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نتائج مباريات كرة القدم</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="test_text">تجربه</string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">امبارحه</string>
+    <string name="tomorrow">غدا</string>
+    <string name="seriaa">المجموعة الأولى</string>
+    <string name="matchday_text">يوم المبارات</string>
+    <string name="quarter_final">ربع النهائيات</string>
+    <string name="semi_final">نصف النهائيات</string>
+    <string name="final_text">النهائيات</string>
+    <string name="share_text">مشاركة</string>
+    <string name="about">حول المشروع</string>
+    <string name="title_activity_about">حول التطبيق</string>
+    <string name="about_text">
+       هذا التطبيق الحصول على مباريات كرة القدم نتيجة للدوري الممتاز، الدوري الإيطالي، الدوري الالماني، الدوري الاسباني ودوري أبطال أوروبا. يتم الحصول على جميع البيانات مباريات من API مجانا football-data.org. يتم الحصول على كل الشعارات فريق من http://hdlogo.wordpress.com/ عند طلب استمارة إذن المالك. تم إنشاء النسخة الأصلية من هذا التطبيق بواسطة يحيى خالد بن الوليد أحمد، ويتم إعطاء نسخة معدلة للطلاب في برنامج دورة Udacity الروبوت Nanodegree. للإبلاغ عن أي أخطاء أو اقتراحات لا تتردد في إرسال بريد إلكتروني إلى y.k.ibnelwalid@gmail.com. خلال موسمها، سيتم إضافة بيانات وهمية إلى التطبيق.
+    </string>
+    <string name="score_football_widget">مباريات اليوم</string>
+    <string name="empty_text_view_match">لا يوجد مباريات اليوم</string>
+</resources>
