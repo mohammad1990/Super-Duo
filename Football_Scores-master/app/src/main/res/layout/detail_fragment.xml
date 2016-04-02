@@ -17,7 +17,8 @@
             android:gravity="center"
             android:text="@string/test_text"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/League" />
+            android:textSize="@dimen/League"
+            android:contentDescription="@string/league_match"/>
 
         <TextView
             android:id="@+id/matchday_textview"
@@ -27,7 +28,9 @@
             android:gravity="center"
             android:text="@string/test_text"
             android:textColor="@android:color/black"
-            android:textSize="@dimen/League" />
+            android:textSize="@dimen/League"
+            android:contentDescription="@string/match_day"
+                />
     </LinearLayout>
 
     <FrameLayout
@@ -46,6 +49,7 @@
             android:paddingLeft="120dp"
             android:paddingRight="120dp"
             android:paddingStart="120dp"
+            android:contentDescription="@string/share_button"
             android:text="@string/share_text" />
     </FrameLayout>
 

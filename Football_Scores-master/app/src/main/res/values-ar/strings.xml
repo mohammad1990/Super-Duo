@@ -19,4 +19,9 @@
     </string>
     <string name="score_football_widget">مباريات اليوم</string>
     <string name="empty_text_view_match">لا يوجد مباريات اليوم</string>
+    <string name="share_button">مشاركة معلومات المبارات</string>
+    <string name="match_day">يوم المبارات</string>
+    <string name="league_match">دوري</string>
+    <string name="premierleague">دوري الأبطال</string>
+    <string name="primeradivison" translatable="false">دوري الرئيسي</string>
 </resources>

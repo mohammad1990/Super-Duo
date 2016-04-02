@@ -184,9 +184,10 @@ public class AddBook extends Fragment implements LoaderManager.LoaderCallbacks<C
         }
         String eanStr = ean.getText().toString();
         if (eanStr.length() == 10 && !eanStr.startsWith("978")) {
+           // eanStr="978".concat(eanStr);
             eanStr = "978" + eanStr;
         }
-        if (checkIfNumber(eanStr))
+       if (checkIfNumber(eanStr))
             return new CursorLoader(
                     getActivity(),
                     AlexandriaContract.BookEntry.buildFullBookUri(Long.parseLong(eanStr)),
@@ -195,7 +196,7 @@ public class AddBook extends Fragment implements LoaderManager.LoaderCallbacks<C
                     null,
                     null
             );
-             return new CursorLoader(
+            return new CursorLoader(
                 getActivity(),
                 AlexandriaContract.BookEntry.buildFullBookUri(Long.parseLong("0")),
                 null,
@@ -207,7 +208,7 @@ public class AddBook extends Fragment implements LoaderManager.LoaderCallbacks<C
 //exception if the barcode is link so we need to check that.
     private boolean checkIfNumber(String text) {
         try {
-            int num = Integer.parseInt(text);
+            Long num = Long.valueOf(text);
             return true;
         } catch (NumberFormatException e) {
             return false;

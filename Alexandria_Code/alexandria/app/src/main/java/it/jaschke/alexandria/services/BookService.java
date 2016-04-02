@@ -7,6 +7,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -68,7 +69,12 @@ public class BookService extends IntentService {
 
     private boolean checkIfNumber(String text) {
         try {
-            int num = Integer.parseInt(text);
+           /* StringBuilder sb = new StringBuilder(text);
+            sb.deleteCharAt('"');*/
+           // String resultString = sb.toString();
+           // Toast.makeText(getApplicationContext(),text+"",Toast.LENGTH_LONG).show();
+            Long num = Long.valueOf(text);
+
             return true;
         } catch (NumberFormatException e) {
             return false;

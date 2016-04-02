@@ -121,7 +121,7 @@ public class RemoteViewsFactoryc implements RemoteViewsService.RemoteViewsFactor
        // views.setContentDescription(R.id.image_view_second_team,awayTeam+"image");
         views.setContentDescription(R.id.tv_first_team,homeTeam);
         views.setContentDescription(R.id.tv_second_team,homeTeam);
-        views.setContentDescription(R.id.list, "list of the teams");
+        views.setContentDescription(R.id.list, mContext.getResources().getString(R.string.list_teams));
 
         //final Intent i = new Intent();
         //final Bundle bundle = new Bundle();
